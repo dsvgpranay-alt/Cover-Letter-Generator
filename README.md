@@ -15,7 +15,7 @@ A web-based **Cover Letter Generator** built using **Flask and Jinja2** that all
 - Dynamic content rendering using Jinja2 templates
 - Convert generated cover letters into PDF format
 - Download cover letter instantly
-- Responsive UI using HTML, CSS, and Bootstrap
+- UI built using HTML, CSS, and Bootstrap
 - Deployed using Render
 
 ---
