@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            font-family: Arial;
+            margin:40px;
+            line-height:1.6;
+            font-size:16px;
+        }
+
+        h2{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Cover Letter</h2>
+
+<p>{{ name }}</p>
+<p>{{ contact }}</p>
+<p>{{ education }}</p>
+
+<br>
+
+<p>Hiring Manager</p>
+<p>{{ company }}</p>
+
+<p><strong>Subject:</strong> Application for {{ job }}</p>
+
+<p>Dear Hiring Manager,</p>
+
+<p>
+I am writing to apply for the {{ job }} position at {{ company }}.
+I have skills in {{ skills }} and I believe I would be a valuable addition to your team.
+</p>
+
+<p>
+Thank you for your consideration.
+</p>
+
+<p>
+Sincerely,<br>
+{{ name }}
+</p>
+<div class="text-center mt-4">
+    <a href="/download" class="btn btn-success">
+        Download PDF
+    </a>
+</div>
+</body>
+</html>
+

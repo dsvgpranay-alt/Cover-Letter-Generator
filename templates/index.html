@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                Cover Letter Builder
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="Herotext"><p>Welcome To Cover Letter Builder's</p></div>
+    </div>
+    <form method="POST">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="mb-3">
+                    <label for="Contact" class="form-label">Contact</label>
+                    <input type="text" class="form-control" id="Contact" name="Contact">
+                </div>
+                <div class="mb-3">
+                    <label for="Eductaion" class="form-label">Eductaion</label>
+                    <input type="text" class="form-control" id="Eductaion" name="Education">
+                </div>
+                <div class="mb-3">
+                    <label for="Company" class="form-label">Company Name</label>
+                    <input type="text" class="form-control" id="Company" name="Company">
+                </div>
+                <div class="mb-3">
+                    <label for="work" class="form-label">Job Role</label>
+                    <input type="text" class="form-control" id="work" name="work">
+                </div>
+                <div class="mb-3">
+                    <label for="skills" class="form-label">Skills</label>
+                    <input type="text" class="form-control" id="Skills" name="skills">
+                </div>
+                <input type="submit" class="btn btn-primary" value="Click To Generate">
+            </div>
+        </div>
+    </form><br><br>
+    <div class="Footer">
+        © 2026 Cover Letter Builder<br>
+        Made with Flask & Bootstrap
+    </div>
+   
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  </body>
+</html>

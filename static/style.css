@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    box-sizing:border-box;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Herotext{
+    font-size: 35px;
+    font-weight: bold;
+}
+.Footer{
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
