@@ -11,7 +11,7 @@
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" width="85" height="40" class="d-inline-block align-text-top">
                 Cover Letter Builder
             </a>
         </div>
@@ -20,33 +20,35 @@
         <div class="Herotext"><p>Welcome To Cover Letter Builder's</p></div>
     </div>
     <form method="POST">
-        <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-6">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Your Name</label>
-                    <input type="text" class="form-control" id="name" name="name">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Contact" class="form-label">Contact</label>
+                        <input type="text" class="form-control" id="Contact" name="Contact">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Eductaion" class="form-label">Education</label>
+                        <input type="text" class="form-control" id="Eductaion" name="Education">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Company" class="form-label">Company Name</label>
+                        <input type="text" class="form-control" id="Company" name="Company">
+                    </div>
+                    <div class="mb-3">
+                        <label for="work" class="form-label">Job Role</label>
+                        <input type="text" class="form-control" id="work" name="work">
+                    </div>
+                    <div class="mb-3">
+                        <label for="skills" class="form-label">Skills</label>
+                        <input type="text" class="form-control" id="Skills" name="skills">
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Click To Generate">
                 </div>
-                <div class="mb-3">
-                    <label for="Contact" class="form-label">Contact</label>
-                    <input type="text" class="form-control" id="Contact" name="Contact">
-                </div>
-                <div class="mb-3">
-                    <label for="Eductaion" class="form-label">Eductaion</label>
-                    <input type="text" class="form-control" id="Eductaion" name="Education">
-                </div>
-                <div class="mb-3">
-                    <label for="Company" class="form-label">Company Name</label>
-                    <input type="text" class="form-control" id="Company" name="Company">
-                </div>
-                <div class="mb-3">
-                    <label for="work" class="form-label">Job Role</label>
-                    <input type="text" class="form-control" id="work" name="work">
-                </div>
-                <div class="mb-3">
-                    <label for="skills" class="form-label">Skills</label>
-                    <input type="text" class="form-control" id="Skills" name="skills">
-                </div>
-                <input type="submit" class="btn btn-primary" value="Click To Generate">
             </div>
         </div>
     </form><br><br>

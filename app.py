@@ -27,7 +27,7 @@ def home():
 @app.route("/download")
 def download():
 
-    html = render_template("letter.html", **data)
+    html = render_template("pdf.html", **data)
 
     pdf = BytesIO()
     pisa.CreatePDF(html, dest=pdf)
